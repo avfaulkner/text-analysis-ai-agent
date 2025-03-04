@@ -9,7 +9,7 @@ python3 -m venv agent_env && source agent_env/bin/activate
 ```
 Install dependencies
 ```
-pip install langgraph langchain langchain-openai python-dotenv openai
+pip install -r requirements.txt
 ```
 
 Run the script
