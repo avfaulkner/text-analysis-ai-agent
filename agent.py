@@ -123,7 +123,7 @@ except openai.APIConnectionError as e:
   #Handle connection error here
   print(f"Failed to connect to OpenAI API: {e}")
 except openai.RateLimitError as e:
-  #Handle rate limit error (we recommend using exponential backoff)
+  #Handle rate limit error 
   print(f"OpenAI API request exceeded rate limit: {e}")
 except openai.OpenAIError as e:
   print(f"The api key is missing: {e}")
